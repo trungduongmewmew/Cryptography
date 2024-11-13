@@ -5,4 +5,5 @@ Tool Mewmew có gì :
     - Mã hoá file bằng public key , chỉ có nắm giữ private key mới có thể giải mã.  
     - Có khả năng quét toàn bộ ổ đĩa và mã hoá file  
 Demo:  
-[![Watch the video](https://github.com/trungduongmewmew/Cryptography/blob/main/Images/demo_videos.mp4)
+[Video Demo](Images/demo_videos.mp4)
+
