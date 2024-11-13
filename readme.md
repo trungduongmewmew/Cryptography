@@ -4,3 +4,5 @@ Tool Mewmew có gì :
     - Tool không có giao diện ( tránh bị nghi ngờ )  
     - Mã hoá file bằng public key , chỉ có nắm giữ private key mới có thể giải mã.  
     - Có khả năng quét toàn bộ ổ đĩa và mã hoá file  
+Demo:  
+[![Watch the video](Images/demo_videos.mp4)
