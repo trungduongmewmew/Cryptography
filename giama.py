@@ -80,7 +80,7 @@ def get_all_drives():
 
 # Chạy chương trình giải mã
 if __name__ == "__main__":
-    private_key_path = "path_to_private_key.pem"  # Đường dẫn đến khóa riêng tư PEM
+    private_key_path = "C:/test/key.pem"  # Đường dẫn đến khóa riêng tư PEM
     private_key = load_private_key(private_key_path)  # Tải khóa riêng tư
     drives = get_all_drives()  # Lấy tất cả các ổ đĩa
     for drive in drives:

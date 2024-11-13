@@ -11,7 +11,7 @@ def generate_key_pair():
     )
     public_key = private_key.public_key()
 
-    # Lưu khóa cá nhân
+    # Lưu khóa privatekey
     with open("private_key.pem", "wb") as f:
         f.write(
             private_key.private_bytes(
