@@ -18,7 +18,7 @@ Demo:
 
 *   **AES Key Generation**: Trong hàm encrypt\_file, một khóa AES ngẫu nhiên 256-bit và một IV (Initialization Vector) ngẫu nhiên 128-bit được tạo ra. Khóa này sẽ được dùng để mã hóa nội dung của file.
     
-*   **AES Encryption**: Nội dung file được mã hóa bằng thuật toán AES ở chế độ CBC (Cipher Block Chaining). Để đảm bảo dữ liệu đủ độ dài, chương trình sử dụng padding PKCS7.
+*   **AES Encryption**: Nội dung file được mã hóa bằng thuật toán AES ở chế độ CBC (Cipher Block Chaining). Để đảm bảo dữ liệu đủ độ dài, chương trình sử dụng padding PKCS7.AES yêu cầu dữ liệu đầu vào phải có kích thước là bội số của độ dài khối (block size, 128-bit hoặc 16 bytes). Tuy nhiên, dữ liệu trong tệp không phải lúc nào cũng đủ độ dài. Do đó, chương trình sử dụng một kỹ thuật gọi là "padding" để thêm dữ liệu phụ vào cuối nội dung, giúp nó đạt đủ độ dài yêu cầu.  
     
 *   **RSA Encryption of AES Key**: Khóa AES ngẫu nhiên này được mã hóa bằng khóa công khai RSA, đảm bảo rằng chỉ có người giữ khóa riêng RSA tương ứng mới có thể giải mã và truy cập vào khóa AES.
     
