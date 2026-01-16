@@ -46,3 +46,8 @@ Demo:
 ### Cơ chế mã hóa chính:
 
 *   **Hybrid Encryption** (Mã hóa lai): Sử dụng RSA để mã hóa khóa AES và AES để mã hóa dữ liệu thực tế trong file, nhằm tối ưu hóa tốc độ và bảo mật.
+                        
+#### Stargazers over time
+[![Stargazers over time](https://starchart.cc/netease-im/camellia.svg?variant=adaptive)](https://starchart.cc/netease-im/camellia)
+
+                    
